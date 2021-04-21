@@ -3,7 +3,7 @@ import Link from 'gatsby-link'
 import './Header.css'
 
 class Header extends React.Component {
-    render() {
+  render() {
     return (
       <div className="Header">
         <div className="HeaderGroup">
