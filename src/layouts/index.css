@@ -110,7 +110,16 @@ a {
   }
 }
 
+.CardGroup {
+  margin: 50px 40px 100px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 40px;
+  justify-items: center;
+}
 
-
-
-
+@media (max-width: 1060px) {
+  .CardGroup {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}

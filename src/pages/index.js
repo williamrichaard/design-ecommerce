@@ -34,54 +34,56 @@ const IndexPage = () => (
     </div>
     <div className="Cards">
       <h2>11 courses, more coming</h2>
-      <Card 
-        title="Design System"
-        text="10 sections"
-        image={require('../images/wallpaper.jpg')} />
-      <Card 
-        title="React for Designers"
-        text="12 sections"
-        image={require('../images/wallpaper.jpg')} />
-      <Card 
-        title="Video Editing with Screenflow"
-        text="6 sections"
-        image={require('../images/wallpaper.jpg')} />
-      <Card 
-        title="Sound Design with Cubase"
-        text="6 sections"
-        image={require('../images/wallpaper.jpg')} />
-      <Card 
-        title="Build an ARKit 2 app"
-        text="10 sections"
-        image={require('../images/wallpaper.jpg')} />
-      <Card 
-        title="Motion Design in After Effects"
-        text="8 sections"
-        image={require('../images/wallpaper.jpg')} />
-      <Card 
-        title="Create a Sketch plugin"
-        text="7 sections"
-        image={require('../images/wallpaper.jpg')} />
-      <Card   
-        title="Create a Spritekit"
-        text="9 sections"
-        image={require('../images/wallpaper.jpg')} />
-      <Card 
-        title="Swift Advanced"
-        text="22 sections"
-        image={require('../images/wallpaper.jpg')} />
-      <Card 
-        title="Learn Swift"
-        text="19 sections"
-        image={require('../images/wallpaper.jpg')} />
-      <Card 
-        title="Learn Sketch"
-        text="21 sections"
-        image={require('../images/wallpaper.jpg')} />
-      <Card 
-        title="Learn iOS Design"
-        text="12 sections"
-        image={require('../images/wallpaper.jpg')} />
+      <div className="CardGroup">
+        <Card 
+          title="Design System"
+          text="10 sections"
+          image={require('../images/wallpaper.jpg')} />
+        <Card 
+          title="React for Designers"
+          text="12 sections"
+          image={require('../images/wallpaper2.jpg')} />
+        <Card 
+          title="Video Editing with Screenflow"
+          text="6 sections"
+          image={require('../images/wallpaper3.jpg')} />
+        <Card 
+          title="Sound Design with Cubase"
+          text="6 sections"
+          image={require('../images/wallpaper4.jpg')} />
+        <Card 
+          title="Build an ARKit 2 app"
+          text="10 sections"
+          image={require('../images/wallpaper.jpg')} />
+        <Card 
+          title="Motion Design in After Effects"
+          text="8 sections"
+          image={require('../images/wallpaper2.jpg')} />
+        <Card 
+          title="Create a Sketch plugin"
+          text="7 sections"
+          image={require('../images/wallpaper3.jpg')} />
+        <Card   
+          title="Create a Spritekit"
+          text="9 sections"
+          image={require('../images/wallpaper4.jpg')} />
+        <Card 
+          title="Swift Advanced"
+          text="22 sections"
+          image={require('../images/wallpaper.jpg')} />
+        <Card 
+          title="Learn Swift"
+          text="19 sections"
+          image={require('../images/wallpaper2.jpg')} />
+        <Card 
+          title="Learn Sketch"
+          text="21 sections"
+          image={require('../images/wallpaper3.jpg')} />
+        <Card 
+          title="Learn iOS Design"
+          text="12 sections"
+          image={require('../images/wallpaper4.jpg')} />
+      </div>
     </div>
   </div>
 )
