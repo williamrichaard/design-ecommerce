@@ -17,10 +17,15 @@ const SectionLogo = styled.img`
 `
 
 const SectionTitleGroup = styled.div`
+  display: grid;
+  grid-template-columns: 300px auto;
 `
 
 const SectionTitle = styled.h3`
   color: white;
+  font-size: 60px;
+  margin: 0;
+  line-height: 1.2;
 `
 
 const SectionText = styled.p`
