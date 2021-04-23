@@ -13,15 +13,18 @@ const SectionGroup = styled.div`
 const SectionLogo = styled.img`
   align-self: end;
   width: 128px;
+  margin: 0 auto;
 `
 
 const SectionTitleGroup = styled.div`
 `
 
 const SectionTitle = styled.h3`
+  color: white;
 `
 
 const SectionText = styled.p`
+  color: white;
 `
 
 const Section = props => (
