@@ -4,9 +4,15 @@ import styled from 'styled-components'
 const SectionGroup = styled.div`
   background: url(${props => props.image});
   height: 720px;
+  background-size: cover;
+  display: grid;
+  grid-template-rows: 300px auto;
+  grid-gap: 20px
 `
 
 const SectionLogo = styled.img`
+  align-self: end;
+  width: 128px;
 `
 
 const SectionTitleGroup = styled.div`
